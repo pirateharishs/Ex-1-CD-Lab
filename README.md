@@ -1,5 +1,6 @@
 # Ex-1 IMPLEMENTATION-OF-SYMBOL-TABLE
 # Register Number : 212223230071
+# Name: HARISH S
 # Date : 19/03/25
 # AIM :
 ## To write a C program to implement a symbol table.
@@ -12,14 +13,15 @@
 6.	The steps are repeated till ‘$’ is reached.
 7.	To reach a variable, enter the variable to be searched and the symbol table has been checked for the corresponding variable, the variable along with its address is displayed as a result.
 8.	Stop the program. 
-# PROGRAM :
+# PROGRAM
 ```
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>
 #include<stdlib.h>
 #define MAX_EXPRESSION_SIZE 100
-int main() {
+int main() 
+{
     int i = 0, j = 0, x = 0, n, flag = 0;
     void *add[5]; // Array to store addresses
     char b[MAX_EXPRESSION_SIZE], d[5], c, srch;
@@ -64,7 +66,11 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT:
-![Screenshot 2024-09-25 213626](https://github.com/user-attachments/assets/29230b9f-1cc0-428f-8a05-c66d128aca30)
-# RESULT:
+# OUTPUT
+# SYMBOL FOUND
+![sym_fou](https://github.com/user-attachments/assets/e8e7181c-f7bd-4137-8d25-f784c978fa8f)
+# SYMBOL NOT FOUND 
+![sym_not_fo](https://github.com/user-attachments/assets/760319dc-5fa3-4e55-abcc-6db2401c14a2)
+
+# RESULT
 ### The program to implement a symbol table is executed and the output is verified.
